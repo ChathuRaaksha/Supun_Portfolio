@@ -3,8 +3,10 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./AboutMe.css";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export default function AboutMe(props) {
+  const notify = () => toast("Pl Email Me, email: chathurangarulz@gmail.com");
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
@@ -58,7 +60,7 @@ export default function AboutMe(props) {
             <div className="about-me-options">
               <button
                 className="btn primary-btn"
-                onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+                onClick={notify}
               >
                 {" "}
                 Hire Me{" "}
@@ -66,6 +68,7 @@ export default function AboutMe(props) {
               <a href='Chathuranga_CV.pdf' download='Supun CV.pdf'>
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
+              <ToastContainer />
             </div>
           </div>
         </div>
