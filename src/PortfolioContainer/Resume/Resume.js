@@ -94,7 +94,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
      <ResumeHeading
         heading={"Stockholm University"}
-        subHeading={"MASTER OF Strategic Information Systems Management"}
+        subHeading={"MASTER OF STRATEGIC INFORMATION SYSTEMS MANAGEMENT"}
         fromDate={"2024"}
         toDate={"2026"}
       />
