@@ -128,14 +128,42 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Ceylon Electricity Board"}
+          heading={"PEOPLES BANK"}
           subHeading={"FULL STACK DEVELOPER"}
-          fromDate={"2014"}
-          toDate={"Present"}
+          fromDate={"2023"}
+          toDate={"2024"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as React Js web and React Native mobile developer.
+            Programming Stack PHP, JAVA, JAVA SCRIPT, PYTHON, C#, REACT JS, SPRING BOOT.
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            - Managed and deployed web application packages, including building, testing,
+            and maintaining security standards. .
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Mentored and guided junior developers, transferring knowledge on core banking systems 
+            and best practices to elevate team capabilities..{" "}
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Administered unit and integration tests, conducted peer reviews, and adhered to coding standards 
+            to ensure maintainable, well-tested code.
+          </span>
+          <br />
+        </div>
+         <ResumeHeading
+          heading={"Ceylon Electricity Board"}
+          subHeading={"FULL STACK DEVELOPER"}
+          fromDate={"2014"}
+          toDate={"2023"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Worked as a React Js web and React Native mobile developer.
           </span>
         </div>
         <div className="experience-description">
