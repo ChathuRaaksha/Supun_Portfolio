@@ -92,18 +92,23 @@ const Resume = (props) => {
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
+     <ResumeHeading
+        heading={"Stockholm University"}
+        subHeading={"MASTER OF Strategic Information Systems Management"}
+        fromDate={"2024"}
+        toDate={"2026"}
+      />
+       <ResumeHeading
+        heading={"University of Colombo School of Computing"}
+        subHeading={"MASTER OF COMUPTER SCIENCE"}
+        fromDate={"2019"}
+        toDate={"2021"}
+      />
       <ResumeHeading
         heading={"Sri Lanka Institute of Information Technology"}
         subHeading={"BACHELOR OF SCIENCE HONS SP IN INFORMATION TECHNOLOGY"}
         fromDate={"2014"}
         toDate={"2018"}
-      />
-
-      <ResumeHeading
-        heading={"University of Colombo School of Computing"}
-        subHeading={"MASTER OF COMUPTER SCIENCE"}
-        fromDate={"2019"}
-        toDate={"2021"}
       />
       <ResumeHeading
         heading={"High School "}
